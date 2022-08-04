@@ -1,0 +1,155 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.bg-blue-gd {
+    background: linear-gradient(90deg, rgba(67,67,230,1) 16%, rgba(0,183,221,1) 100%);
+}
+
+.card-cascade.narrower.section-header {
+    transform: translate(20px, 20px);
+    z-index: 2;
+}
+
+.w-fit-content {
+    width: fit-content !important;
+}
+
+.wh-media-object {
+    width: 60px;
+    height: 60px;
+}
+
+.activity-collage-img {
+    height: 100px !important;
+    max-height: 100px !important;
+}
+
+.activity-collage-text {
+    height: 100px;
+    max-height: 100px;
+}
+
+body::-webkit-scrollbar,
+.activity-collage-text::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track,
+.activity-collage-text::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+body::-webkit-scrollbar-thumb,
+.activity-collage-text::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-image: linear-gradient(90deg, rgba(0,183,221,1) 0%, rgba(0,183,221,1) 99%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+.iframe-responsive {
+    max-width: 600px;
+}
+
+.accordion-text,
+.list-group-text {
+    font-size: 0.5rem;
+}
+
+.iframe-responsive-googledrive {
+    width: 70vw;
+}
+
+@media (max-width: 576px) {
+    .iframe-responsive {
+        width: calc(100vw - 100px);
+    }
+
+    .accordion-text {
+        padding: 0rem 0.25rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .iframe-responsive {
+        width: calc(100vw - 330px);
+    }
+
+    .accordion-text {
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .w-fb-page {
+        width: 340px !important;
+    }
+
+    .iframe-responsive {
+        width: calc(100vw - 480px);
+    }
+
+    .accordion-text {
+        padding: 0.75rem 0.75rem;
+    }
+
+    .accordion-text,
+    .list-group-text {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 922px) {
+    .iframe-responsive {
+        width: calc(100vw - 550px);
+    }
+
+    .accordion-text {
+        padding: 1rem 1rem;
+    }
+
+    .accordion-text,
+    .list-group-item {
+        font-size: 1rem;
+    }
+}
+
+.subdistrict-info-section .subdistrict-info-text {
+    height: 100px;
+    max-height: 100px;
+}
+
+.text-wrapper-flex {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.rounded-bottom-custom-1 {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+#footer-1:after {
+    content: "ที่อยู่ไปรษณีย์อิเล็กทรอนิกส์กลาง (อีเมลกลาง) : saraban@srisomdet.go.th";
+}
+
+#footer-2:after {
+    content: "องค์การบริหารส่วนตำบลศรีสมเด็จ อำเภอสมเด็จ จังหวัดกาฬสินธุ์";
+}
+
+.pic-border {
+    border-image: url('https://www.ts-local.com/frame/frame2.png') 50 50 50 50 stretch stretch;
+    border-color: #00BFFF;
+    border-style: inset;
+    border-width: 20px;
+    display: block;
+    height: auto;
+    background-color: #ffe;
+    margin: 0 auto;
+}
+
+.text-indent {
+    text-indent: 2em;
+}
